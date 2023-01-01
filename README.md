@@ -1,4 +1,4 @@
-# MineReport
+# MineReport [WIP]
 An all in one hacker reporting tool for Minecraft Servers
 
 ## What can MineReport do?
