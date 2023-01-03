@@ -15,4 +15,9 @@ class Report extends Model
         'event_time',
         'violations'
     ];
+
+    public function player()
+    {
+        return $this->belongsTo('App\Player');
+    }
 }

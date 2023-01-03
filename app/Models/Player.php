@@ -11,5 +11,11 @@ class Player extends Model
 
     protected $fillable = [
         'username',
+        'email'
     ];
+
+    public function reports()
+    {
+        return $this->hasMany('App\Reports');
+    }
 }

@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('player_id');
             $table->string('reporter');
             $table->dateTime('event_time');
-            $table->string('violations');
+            $table->json('violations');
             $table->timestamps();
         });
     }
