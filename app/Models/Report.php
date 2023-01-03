@@ -8,4 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class Report extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'player_id',
+        'reporter',
+        'event_time',
+        'violations'
+    ];
 }
